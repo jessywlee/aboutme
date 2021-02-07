@@ -1,0 +1,94 @@
+
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+
+}
+
+.title{
+    padding-top: 100px;
+    font-size: 70px;
+    font-weight: 800;
+    position: relative;
+    white-space: nowrap;
+    font-family: 'Petit Formal Script', cursive;
+
+}
+
+
+.name {
+    margin-top:0;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+
+.aboutbox {
+  width: 870px;
+  height: 170px;
+  background-color: #EAE3DD;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+.icon {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  position: relative;
+  margin-left: 30px;
+  margin-top: 35px;
+}
+
+.section {
+  font-family:'Courier New', Courier, monospace;
+  font-size: 40px;
+}
+
+
+.div_whoami, .div_likes, .div_contact {
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  left: 150px;
+  bottom: 130px;
+  width: 620px;
+  height: 150px;
+
+}
+
+
+.contents_whoami, .contents_likes, .contents_contact {
+  display: none;
+  font-family:'Courier New', Courier, monospace;
+  
+}
+
+.contents_whoami {
+  font-size: 15px;
+  position: absolute;
+  left: 30px;
+  bottom: 5px;
+}
+
+.contents_likes {
+  text-align: left;
+  position: absolute;
+  left: 80px;
+  bottom: 10px;
+}
+
+.contents_contact {
+  flex-direction: row;
+}
+
+
+
