@@ -139,23 +139,24 @@ button:hover .allcontents{
   
 }
 
-@media screen and (max-width: 600px) {
+/* mobile screen */
+@media screen and (max-width: 850px) {
   .aboutbox {
-    width: 350px;
+    width: 450px;
     height:350px;
   }
 
   button {
     left: 0;
     top: 70px;
-    width: 350px;
+    width: 450px;
     height: 300px;
   }
 
   .icon {
     width: 80px;
     height: 80px;
-    left: 100px;
+    left: 150px;
     top: 30px;
   }
 
@@ -165,5 +166,10 @@ button:hover .allcontents{
 
   #mbti {
     top: 40px;
+  }
+
+  #btn_contact {
+    width: 400px;
+    left: 25px;
   }
 }
