@@ -154,19 +154,14 @@ button:hover .allcontents{
   }
 
   .icon {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     left: 150px;
-    top: 30px;
+    top: 20px;
   }
 
-  .memoji {
-    top:10px;
-  }
 
-  #mbti {
-    top: 40px;
-  }
+ 
 
   #btn_contact {
     width: 400px;
