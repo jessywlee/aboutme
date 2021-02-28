@@ -142,21 +142,23 @@ button:hover .allcontents{
 /* mobile screen */
 @media screen and (max-width: 850px) {
   .aboutbox {
-    width: 450px;
+    width: 400px;
     height:350px;
   }
 
   button {
     left: 0;
     top: 70px;
-    width: 450px;
+    width: 400px;
     height: 300px;
   }
-
+ #whoami {
+    top: 80px;
+  }
   .icon {
     width: 100px;
     height: 100px;
-    left: 150px;
+    left: 120px;
     top: 20px;
   }
 
@@ -165,6 +167,6 @@ button:hover .allcontents{
 
   #btn_contact {
     width: 400px;
-    left: 25px;
+    
   }
 }
