@@ -17,7 +17,7 @@ let questions = [];
 /*to fetch data from json file instead of hard coding the questions.  
 Note that fetching local path doesn't work for security reasons, so you need
 https URL scheme*/
-fetch("https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=multiple")
+fetch("https://opentdb.com/api.php?amount=20&category=18&difficulty=easy&type=multiple")
 .then(res => {
     return res.json(); 
     /* The json() method of the Body mixin takes a Response stream and reads it to completion. 
@@ -54,7 +54,7 @@ fetch("https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=mu
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 3;
+const MAX_QUESTIONS = 5;
 
 startGame = () => {
     questionCounter = 0;
