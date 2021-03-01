@@ -113,7 +113,10 @@ a {
   text-decoration: none;
 }
 
-
+.contents_quiz {
+  font-size: 30px;
+}
+/*button hover effect*/
 
 @keyframes fadeIn {
   from {
@@ -162,5 +165,5 @@ button:hover .allcontents{
   }
 
 
-  ß
+  
 }
