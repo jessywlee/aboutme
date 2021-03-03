@@ -39,7 +39,6 @@ fetch("https://opentdb.com/api.php?amount=20&category=18&difficulty=easy&type=mu
             formattedQuestion["choice" + (index + 1)] = choice;
         });
        
-        console.log(formattedQuestion);
       
         return formattedQuestion;
     });
@@ -76,7 +75,7 @@ getNewQuestion = () => {
     };
     
     questionCounter ++;
-    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
+    progressText.innerHTML = `Question ${questionCounter}/${MAX_QUESTIONS}`;
 
     //Update the progress bar
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
@@ -84,12 +83,12 @@ getNewQuestion = () => {
 
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
-    question.innerText = currentQuestion.question;
-    /* HTML question's innertext is set to currentquestion's question (key name) property */
+    question.innerHTML = currentQuestion.question;
+    /* HTML question's text is set to currentquestion's question (key name) property */
     choices.forEach((choice) => {
         const number = choice.dataset['number'];
-        choice.innerText = currentQuestion['choice' + number];
-        /* choice's inner text is set to currentquestion's choice# (key name) property */
+        choice.innerHTML = currentQuestion['choice' + number];
+        /* choice's text is set to currentquestion's choice# (key name) property */
     });
 
     availableQuestions.splice(questionIndex, 1);
