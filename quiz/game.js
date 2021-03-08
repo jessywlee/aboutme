@@ -85,6 +85,7 @@ getNewQuestion = () => {
     currentQuestion = availableQuestions[questionIndex];
     question.innerHTML = currentQuestion.question;
     /* HTML question's text is set to currentquestion's question (key name) property */
+    console.log(question);
     choices.forEach((choice) => {
         const number = choice.dataset['number'];
         choice.innerHTML = currentQuestion['choice' + number];
